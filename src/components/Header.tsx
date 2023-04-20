@@ -43,9 +43,9 @@ export default function Header() {
       >
         <Show
           when={iconTitle().icon}
-          fallback={<div class="w-8em h-8em" innerHTML={logo} />}
+          fallback={<div class="w-3em h-3em" innerHTML={logo} />}
         >
-          <div class="text-7em h-1em mb-8">{iconTitle().icon}</div>
+          <div class="text-5em h-1em mb-8">{iconTitle().icon}</div>
         </Show>
       </div>
       <header class="px-4 py-2 sticky top-0 z-99 flex justify-between items-center">
@@ -59,7 +59,7 @@ export default function Header() {
             when={iconTitle().title}
             fallback={
               <>
-              <span class="text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-sky-400 to-emerald-600 mr-2 text-1.5xl">
+              <span class="text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-sky-400 to-emerald-600 mr-1 text-1.5xl">
                 玩转 AI 学院
               </span>
               </>
