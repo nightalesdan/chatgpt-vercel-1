@@ -57,9 +57,9 @@ export default defineConfig({
       includeAssets: ["favicon.svg", "apple-touch-icon.png"],
       registerType: "autoUpdate",
       manifest: {
-        name: "ChatGPT",
+        name: "Aivesa",
         lang: "zh-cn",
-        short_name: "ChatGPT",
+        short_name: "Aivesa",
         background_color: "#f6f8fa",
         icons: [
           {
