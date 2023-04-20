@@ -70,7 +70,6 @@ export default function Header() {
             </span>
           </Show>
         </div>
-        <script async defer data-website-id="bb184398-59e0-496d-a9f5-76de81cb878b" src="https://umami.appbox.fun/umami.js"></script>
         <ThemeToggle />
       </header>
     </>
