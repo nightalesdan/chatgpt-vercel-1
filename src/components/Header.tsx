@@ -60,7 +60,7 @@ export default function Header() {
             fallback={
               <>
               <span class="text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-sky-400 to-emerald-600 mr-1 text-1.5xl">
-                玩转 AI 学院
+                Aivesa 智问（内部版）
               </span>
               </>
             }
