@@ -62,11 +62,11 @@ export async function POST({ request }: APIEvent) {
     const { messages, key = localKey, temperature, password, model } = body
 
     if (passwordSet && password !== passwordSet) {
-      throw new Error("密码错误，请联系网站管理员。")
+      throw new Error("密码错误，请到玩赚AI学院内获取密码。")
     }
 
     if (!messages?.length) {
-      throw new Error("没有输入任何文字。")
+      throw new Error("好像没有输入任何文字？")
     } else {
       const content = messages.at(-1)!.content.trim()
       if (content.startsWith("查询填写的 Key 的余额")) {
